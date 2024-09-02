@@ -81,6 +81,12 @@ Acabamos la instalación del proyecto, vamos a la ip_nas:8686 y tendremos la pan
 > [!TIP]
 > Si en algún momento hemos hecho pruebas o queremos cambiar la ip y/o puerto de la base de datos y nos da error de base de datos en filerun tenemos que eliminar el fichero **autoconfig.php** ubicado en **/volume1/docker/filerun/system/data** (por defecto).
 
+> [!IMPORTANT]
+> Could not connect to MySQL server with the provided information.
+>  MySQL: SQLSTATE[HY000] [2006] MySQL server has gone away
+>
+> Si después de la instalación te aparece este mensaje es normal, Synology no se le conoce por tener un hardware muy potente y requiere de su tiempo para levantar el servidor de base de datos por primera vez, dale 10 segundos de rigor.  
+
 
 ### FIN
   
