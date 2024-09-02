@@ -10,7 +10,7 @@ read -p "Ingrese 1 o 2: " system_choice
 mkdir -p filerun_btf
 
 # Descargar el archivo
-wget -O filerun_btf/filerun.tar.gz "https://file.marcallao.com/wl/?id=4cYOLHR1JZXgTelZjFcvMrSs3KDTcydy&fmode=download"
+wget -O filerun_btf/filerun.tar.gz "https://github.com/unraiders/filerun/raw/main/filerun.tar.gz"
 
 # Cambiar al directorio de trabajo
 cd filerun_btf
