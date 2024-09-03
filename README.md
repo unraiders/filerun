@@ -88,6 +88,10 @@ Acabamos la instalación del proyecto, vamos a la ip_nas:8686 y tendremos la pan
 > Si después de la instalación te aparece este mensaje es normal, Synology no se le conoce por tener un hardware muy potente y requiere de su tiempo para levantar el servidor de base de datos por primera vez, dale 10 segundos de rigor.  
 
 
+> [!TIP]
+> Si queremos tener la interface de Filerun en Español tenemos que descargar el fichero **spanish.php** y subirlo a nuestra carpeta de filerun en la siguiente ruta **/system/data/translations/** y después activarlo "Control panel" -> Interface.
+> 
+
 ### FIN
   
 
